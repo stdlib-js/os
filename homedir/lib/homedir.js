@@ -22,7 +22,7 @@
 
 var ENV = require( '@stdlib/process/env' );
 var IS_WINDOWS = require( '@stdlib/assert/is-windows' );
-var PLATFORM = require( '@stdlib/os/platform' );
+var PLATFORM = require( './../../platform' );
 var getuid = require( '@stdlib/process/getuid' );
 
 

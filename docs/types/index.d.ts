@@ -21,14 +21,14 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import ARCH = require( '@stdlib/os/arch' );
-import BYTE_ORDER = require( '@stdlib/os/byte-order' );
-import configdir = require( '@stdlib/os/configdir' );
-import FLOAT_WORD_ORDER = require( '@stdlib/os/float-word-order' );
-import homedir = require( '@stdlib/os/homedir' );
-import NUM_CPUS = require( '@stdlib/os/num-cpus' );
-import PLATFORM = require( '@stdlib/os/platform' );
-import tmpdir = require( '@stdlib/os/tmpdir' );
+import ARCH = require( './../../arch' );
+import BYTE_ORDER = require( './../../byte-order' );
+import configdir = require( './../../configdir' );
+import FLOAT_WORD_ORDER = require( './../../float-word-order' );
+import homedir = require( './../../homedir' );
+import NUM_CPUS = require( './../../num-cpus' );
+import PLATFORM = require( './../../platform' );
+import tmpdir = require( './../../tmpdir' );
 
 /**
 * Interface describing the `os` namespace.

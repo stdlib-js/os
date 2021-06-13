@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var BYTE_ORDER = require( '@stdlib/os/byte-order' );
+var BYTE_ORDER = require( './../../byte-order' );
 
 
 // MAIN //
