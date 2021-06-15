@@ -37,7 +37,7 @@ tape( 'if the platform is little-endian, the value should be `little-endian`', f
 	var FLOAT_WORD_ORDER;
 
 	FLOAT_WORD_ORDER = proxyquire( './../lib/main.js', {
-		'@stdlib/os/byte-order': 'little-endian'
+		'./../../byte-order': 'little-endian'
 	});
 	t.equal( FLOAT_WORD_ORDER, 'little-endian', 'returns expected value' );
 	t.end();
@@ -47,7 +47,7 @@ tape( 'if the platform is big-endian, the value should be `big-endian`', functio
 	var FLOAT_WORD_ORDER;
 
 	FLOAT_WORD_ORDER = proxyquire( './../lib/main.js', {
-		'@stdlib/os/byte-order': 'big-endian'
+		'./../../byte-order': 'big-endian'
 	});
 	t.equal( FLOAT_WORD_ORDER, 'big-endian', 'returns expected value' );
 	t.end();
@@ -57,7 +57,7 @@ tape( 'if the platform is neither little-endian nor big-endian, the value should
 	var FLOAT_WORD_ORDER;
 
 	FLOAT_WORD_ORDER = proxyquire( './../lib/main.js', {
-		'@stdlib/os/byte-order': 'beep-boop'
+		'./../../byte-order': 'beep-boop'
 	});
 	t.equal( FLOAT_WORD_ORDER, 'unknown', 'returns expected value' );
 	t.end();

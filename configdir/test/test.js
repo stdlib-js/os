@@ -77,9 +77,9 @@ function joinPosix() {
 */
 function makeOpts() {
 	var opts = {
-		'@stdlib/os/platform': 'darwin',
+		'./../../platform': 'darwin',
 		'@stdlib/assert/is-windows': false,
-		'@stdlib/os/homedir': homedir,
+		'./../../homedir': homedir,
 		'@stdlib/process/env': ENV,
 		'path': {
 			'join': joinPosix
@@ -133,7 +133,7 @@ tape( 'the function supports Mac OS X', function test( t ) {
 	var opts;
 
 	opts = makeOpts();
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir(), '/Beep/Boop/Library/Preferences', 'returns directory' );
@@ -145,7 +145,7 @@ tape( 'the function supports Mac OS X and appends a path', function test( t ) {
 	var opts;
 
 	opts = makeOpts();
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir( 'appy/config' ), '/Beep/Boop/Library/Preferences/appy/config', 'returns directory' );
@@ -161,7 +161,7 @@ tape( 'the function supports Linux (XDG_CONFIG_HOME)', function test( t ) {
 		'XDG_CONFIG_HOME': '/Beep/bop/.config',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir(), '/Beep/bop/.config', 'returns directory' );
@@ -178,7 +178,7 @@ tape( 'the function supports Linux and appends a path (XDG_CONFIG_HOME)', functi
 		'XDG_CONFIG_HOME': '/Beep/bop/.config',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir( 'appy/config' ), '/Beep/bop/.config/appy/config', 'returns directory' );
@@ -194,7 +194,7 @@ tape( 'the function supports Linux and falls back to a `.config` directory in a 
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir(), '/Beep/Boop/.config', 'returns directory' );
@@ -210,7 +210,7 @@ tape( 'the function supports Linux and falls back to a `.config` directory in a 
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	configdir = proxyquire( mpath, opts );
 
 	t.strictEqual( configdir( 'appy/config' ), '/Beep/Boop/.config/appy/config', 'returns directory' );
@@ -226,7 +226,7 @@ tape( 'the function returns `null` if unable to locate a home directory on non-W
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/homedir' ] = mock;
+	opts[ './../../homedir' ] = mock;
 
 	configdir = proxyquire( mpath, opts );
 

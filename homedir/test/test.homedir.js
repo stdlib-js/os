@@ -50,7 +50,7 @@ function getuid() {
 */
 function makeOpts() {
 	var opts = {
-		'@stdlib/os/platform': 'darwin',
+		'./../../platform': 'darwin',
 		'@stdlib/assert/is-windows': false,
 		'@stdlib/process/getuid': getuid,
 		'@stdlib/process/env': ENV
@@ -78,7 +78,7 @@ tape( 'the function returns a home directory in a non-windows environment (HOME)
 		'HOME': '/Users/beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/Users/beep', 'returns home directory' );
@@ -95,7 +95,7 @@ tape( 'the function returns a home directory in a Mac OS X environment (LOGNAME)
 		'LOGNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/Users/beep', 'returns home directory' );
@@ -112,7 +112,7 @@ tape( 'the function returns a home directory in a Linux environment (LOGNAME)', 
 		'LOGNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/home/beep', 'returns home directory' );
@@ -129,7 +129,7 @@ tape( 'the function returns a home directory in a Mac OS X environment (USER)', 
 		'USER': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/Users/beep', 'returns home directory' );
@@ -146,7 +146,7 @@ tape( 'the function returns a home directory in a Linux environment (USER)', fun
 		'USER': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/home/beep', 'returns home directory' );
@@ -163,7 +163,7 @@ tape( 'the function returns a home directory in a Mac OS X environment (LNAME)',
 		'LNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/Users/beep', 'returns home directory' );
@@ -180,7 +180,7 @@ tape( 'the function returns a home directory in a Linux environment (LNAME)', fu
 		'LNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/home/beep', 'returns home directory' );
@@ -196,7 +196,7 @@ tape( 'the function returns a home directory in a Mac OS X environment (USERNAME
 		'USERNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/Users/beep', 'returns home directory' );
@@ -212,7 +212,7 @@ tape( 'the function returns a home directory in a Linux environment (USERNAME)',
 		'USERNAME': 'beep',
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), '/home/beep', 'returns home directory' );
@@ -227,7 +227,7 @@ tape( 'the function returns `null` if unable to locate a home directory in a Mac
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'darwin';
+	opts[ './../../platform' ] = 'darwin';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), null, 'returns null' );
@@ -242,7 +242,7 @@ tape( 'the function returns `null` if unable to locate a home directory in a Lin
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	homedir = proxyquire( mpath, opts );
 
 	t.strictEqual( homedir(), null, 'returns null' );
@@ -257,7 +257,7 @@ tape( 'the function returns the `/root` directory if run as `root` in a Linux en
 	opts[ '@stdlib/process/env' ] = {
 		'@noCallThru': true
 	};
-	opts[ '@stdlib/os/platform' ] = 'linux';
+	opts[ './../../platform' ] = 'linux';
 	opts[ '@stdlib/process/getuid' ] = mock;
 
 	homedir = proxyquire( mpath, opts );
