@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/os",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Standard library OS utilities.",
   "license": "Apache-2.0",
   "author": {
