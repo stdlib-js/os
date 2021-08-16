@@ -57,7 +57,9 @@ The namespace contains a variety of OS-related utility methods:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`BYTE_ORDER`][@stdlib/os/byte-order]</span><span class="delimiter">: </span><span class="description">platform byte order.</span>
 -   <span class="signature">[`configdir( [path] )`][@stdlib/os/configdir]</span><span class="delimiter">: </span><span class="description">return a directory for user-specific configuration files.</span>
+-   <span class="signature">[`FLOAT_WORD_ORDER`][@stdlib/os/float-word-order]</span><span class="delimiter">: </span><span class="description">platform float word order.</span>
 -   <span class="signature">[`homedir()`][@stdlib/os/homedir]</span><span class="delimiter">: </span><span class="description">return the current user's home directory.</span>
 -   <span class="signature">[`tmpdir()`][@stdlib/os/tmpdir]</span><span class="delimiter">: </span><span class="description">return the directory for storing temporary files.</span>
 
@@ -165,7 +167,11 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/os/platform]: https://github.com/stdlib-js/os/tree/main/platform
 
+[@stdlib/os/byte-order]: https://github.com/stdlib-js/os/tree/main/byte-order
+
 [@stdlib/os/configdir]: https://github.com/stdlib-js/os/tree/main/configdir
+
+[@stdlib/os/float-word-order]: https://github.com/stdlib-js/os/tree/main/float-word-order
 
 [@stdlib/os/homedir]: https://github.com/stdlib-js/os/tree/main/homedir
 
