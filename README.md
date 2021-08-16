@@ -57,9 +57,7 @@ The namespace contains a variety of OS-related utility methods:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`BYTE_ORDER`][@stdlib/os/byte-order]</span><span class="delimiter">: </span><span class="description">platform byte order.</span>
 -   <span class="signature">[`configdir( [path] )`][@stdlib/os/configdir]</span><span class="delimiter">: </span><span class="description">return a directory for user-specific configuration files.</span>
--   <span class="signature">[`FLOAT_WORD_ORDER`][@stdlib/os/float-word-order]</span><span class="delimiter">: </span><span class="description">platform float word order.</span>
 -   <span class="signature">[`homedir()`][@stdlib/os/homedir]</span><span class="delimiter">: </span><span class="description">return the current user's home directory.</span>
 -   <span class="signature">[`tmpdir()`][@stdlib/os/tmpdir]</span><span class="delimiter">: </span><span class="description">return the directory for storing temporary files.</span>
 
@@ -74,6 +72,8 @@ In addition, it exports the following constants:
 <div class="namespace-toc">
 
 -   <span class="signature">[`ARCH`][@stdlib/os/arch]</span><span class="delimiter">: </span><span class="description">operating system CPU architecture.</span>
+-   <span class="signature">[`BYTE_ORDER`][@stdlib/os/byte-order]</span><span class="delimiter">: </span><span class="description">platform byte order.</span>
+-   <span class="signature">[`FLOAT_WORD_ORDER`][@stdlib/os/float-word-order]</span><span class="delimiter">: </span><span class="description">platform float word order.</span>
 -   <span class="signature">[`NUM_CPUS`][@stdlib/os/num-cpus]</span><span class="delimiter">: </span><span class="description">number of CPUs.</span>
 -   <span class="signature">[`PLATFORM`][@stdlib/os/platform]</span><span class="delimiter">: </span><span class="description">platform on which the current process is running.</span>
 
@@ -163,15 +163,15 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/os/arch]: https://github.com/stdlib-js/os/tree/main/arch
 
+[@stdlib/os/byte-order]: https://github.com/stdlib-js/os/tree/main/byte-order
+
+[@stdlib/os/float-word-order]: https://github.com/stdlib-js/os/tree/main/float-word-order
+
 [@stdlib/os/num-cpus]: https://github.com/stdlib-js/os/tree/main/num-cpus
 
 [@stdlib/os/platform]: https://github.com/stdlib-js/os/tree/main/platform
 
-[@stdlib/os/byte-order]: https://github.com/stdlib-js/os/tree/main/byte-order
-
 [@stdlib/os/configdir]: https://github.com/stdlib-js/os/tree/main/configdir
-
-[@stdlib/os/float-word-order]: https://github.com/stdlib-js/os/tree/main/float-word-order
 
 [@stdlib/os/homedir]: https://github.com/stdlib-js/os/tree/main/homedir
 
