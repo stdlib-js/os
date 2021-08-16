@@ -53,7 +53,7 @@ var os = ns;
 
 The namespace contains a variety of OS-related utility methods:
 
-<!-- <toc pattern="*" ignore="+(arch|num-cpus|platform)" > -->
+<!-- <toc pattern="*" ignore="+(arch|num-cpus|platform|byte-order|word-order)" > -->
 
 <div class="namespace-toc">
 
@@ -69,7 +69,7 @@ The namespace contains a variety of OS-related utility methods:
 
 In addition, it exports the following constants:
 
-<!-- <toc pattern="+(arch|num-cpus|platform)" > -->
+<!-- <toc pattern="+(arch|num-cpus|platform|byte-order|word-order)" > -->
 
 <div class="namespace-toc">
 
