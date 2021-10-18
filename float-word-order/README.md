@@ -212,11 +212,31 @@ $ float-word-order
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/os/byte-order`][@stdlib/os/byte-order]</span><span class="delimiter">: </span><span class="description">platform byte order.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [endianness]: https://en.wikipedia.org/wiki/Endianness
 
+<!-- <related-links> -->
+
 [@stdlib/os/byte-order]: https://github.com/stdlib-js/os/tree/main/byte-order
+
+<!-- </related-links> -->
 
 </section>
 

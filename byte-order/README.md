@@ -238,9 +238,34 @@ $ byte-order
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert/is-big-endian`][@stdlib/assert/is-big-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is big endian.</span>
+-   <span class="package-name">[`@stdlib/assert/is-little-endian`][@stdlib/assert/is-little-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is little endian.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [endianness]: https://en.wikipedia.org/wiki/Endianness
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-big-endian]: https://github.com/stdlib-js/assert-is-big-endian
+
+[@stdlib/assert/is-little-endian]: https://github.com/stdlib-js/assert-is-little-endian
+
+<!-- </related-links> -->
 
 </section>
 

@@ -102,7 +102,29 @@ $ arch
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/os/platform`][@stdlib/os/platform]</span><span class="delimiter">: </span><span class="description">platform on which the current process is running.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/os/platform]: https://github.com/stdlib-js/os/tree/main/platform
+
+<!-- </related-links> -->
 
 </section>
 

@@ -101,7 +101,32 @@ $ tmpdir
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/os/configdir`][@stdlib/os/configdir]</span><span class="delimiter">: </span><span class="description">return a directory for user-specific configuration files.</span>
+-   <span class="package-name">[`@stdlib/os/homedir`][@stdlib/os/homedir]</span><span class="delimiter">: </span><span class="description">return the current user's home directory.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/os/configdir]: https://github.com/stdlib-js/os/tree/main/configdir
+
+[@stdlib/os/homedir]: https://github.com/stdlib-js/os/tree/main/homedir
+
+<!-- </related-links> -->
 
 </section>
 
