@@ -20,9 +20,9 @@ limitations under the License.
 
 # OS
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Standard library OS utilities.
+> OS utilities.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var ns = require( '@stdlib/os' );
 
 #### ns
 
-Standard library OS utilities.
+Namespace containing OS utilities.
 
 ```javascript
 var os = ns;
@@ -157,8 +157,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/os/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/os?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/os.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/os/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
