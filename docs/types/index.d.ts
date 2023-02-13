@@ -35,7 +35,7 @@ import tmpdir = require( './../../tmpdir' );
 */
 interface Namespace {
 	/**
-	* Operating system CPU architecture.
+	* Operating system CPU architecture for which the JavaScript runtime binary was compiled.
 	*
 	* ## Notes
 	*
