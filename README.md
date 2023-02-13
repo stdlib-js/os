@@ -24,38 +24,30 @@ limitations under the License.
 
 > OS utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/os
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/os@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/os/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/os@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/os' );
 ```
 
 #### ns
@@ -87,7 +79,7 @@ In addition, it exports the following constants:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`ARCH`][@stdlib/os/arch]</span><span class="delimiter">: </span><span class="description">operating system CPU architecture.</span>
+-   <span class="signature">[`ARCH`][@stdlib/os/arch]</span><span class="delimiter">: </span><span class="description">operating system CPU architecture for which the JavaScript runtime binary was compiled.</span>
 -   <span class="signature">[`BYTE_ORDER`][@stdlib/os/byte-order]</span><span class="delimiter">: </span><span class="description">platform byte order.</span>
 -   <span class="signature">[`FLOAT_WORD_ORDER`][@stdlib/os/float-word-order]</span><span class="delimiter">: </span><span class="description">platform float word order.</span>
 -   <span class="signature">[`NUM_CPUS`][@stdlib/os/num-cpus]</span><span class="delimiter">: </span><span class="description">number of CPUs.</span>
@@ -109,21 +101,11 @@ In addition, it exports the following constants:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/os@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var ns = require( '@stdlib/os' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
