@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ARCH, BYTE_ORDER, FLOAT_WORD_ORDER, NUM_CPUS, PLATFORM, configdir, homedir, tmpdir } from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@esm/index.mjs';
+import { ARCH, BYTE_ORDER, FLOAT_WORD_ORDER, NUM_CPUS, PLATFORM, configdir, homedir, tmpdir } from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.1.0-esm/index.mjs';
 ```
 
 #### ns
@@ -109,7 +109,7 @@ In addition, it exports the following constants:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
