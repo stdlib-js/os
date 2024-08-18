@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/os/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ARCH, BYTE_ORDER, FLOAT_WORD_ORDER, NUM_CPUS, PLATFORM, configdir, homedir, tmpdir } from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.3.1-deno/mod.js';
+import { ARCH, BYTE_ORDER, FLOAT_WORD_ORDER, NUM_CPUS, PLATFORM, configdir, homedir, tmpdir } from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@deno/mod.js';
 ```
 
 #### ns
@@ -104,7 +109,7 @@ In addition, it exports the following constants:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@v0.3.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/os@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
