@@ -2,16 +2,6 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
-
-## Unreleased (2025-04-07)
-
-No changes reported for this release.
-
-</section>
-
-<!-- /.release -->
-
 <section class="release" id="v0.3.3">
 
 ## 0.3.3 (2024-11-05)
@@ -26,47 +16,15 @@ No changes reported for this release.
 
 ## 0.3.2 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="os-configdir-v0.3.2">
-
-#### [@stdlib/os/configdir](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/configdir)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`1ca9f87`](https://github.com/stdlib-js/stdlib/commit/1ca9f8750c23a1f412bf6510ef84cf52ad6ddc7d) - include null in return type
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -81,6 +39,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -120,26 +90,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -155,6 +105,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -174,121 +136,9 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-11-08)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="os-v0.1.0">
-
-#### [@stdlib/os](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os)
-
-<details>
-
 <section class="features">
 
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-arch-v0.1.0">
-
-#### [@stdlib/os/arch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/arch)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-byte-order-v0.1.0">
-
-#### [@stdlib/os/byte-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/byte-order)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-configdir-v0.1.0">
-
-#### [@stdlib/os/configdir](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/configdir)
-
-<details>
-
-<section class="features">
-
-##### Features
+### Features
 
 -   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
 
@@ -298,215 +148,13 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`ff35f38`](https://github.com/stdlib-js/stdlib/commit/ff35f3846e467adce5c8244342a04e2fd4a2ac84) - make CLI scripts executable [(#1111)](https://github.com/stdlib-js/stdlib/pull/1111)
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-float-word-order-v0.1.0">
-
-#### [@stdlib/os/float-word-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/float-word-order)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-homedir-v0.1.0">
-
-#### [@stdlib/os/homedir](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/homedir)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ff35f38`](https://github.com/stdlib-js/stdlib/commit/ff35f3846e467adce5c8244342a04e2fd4a2ac84) - make CLI scripts executable [(#1111)](https://github.com/stdlib-js/stdlib/pull/1111)
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-num-cpus-v0.1.0">
-
-#### [@stdlib/os/num-cpus](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/num-cpus)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-platform-v0.1.0">
-
-#### [@stdlib/os/platform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/platform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="os-tmpdir-v0.1.0">
-
-#### [@stdlib/os/tmpdir](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/os/tmpdir)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -519,19 +167,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -552,6 +187,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
