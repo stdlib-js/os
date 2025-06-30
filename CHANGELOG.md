@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`0643357`](https://github.com/stdlib-js/stdlib/commit/0643357a47588bc83f4539b8fd801f1994374949) - **test:** ensure passing on newer Node.js and cleanup after each test _(by Philipp Burckhardt)_
 -   [`de5c162`](https://github.com/stdlib-js/stdlib/commit/de5c162480ac0e3fef8a05b27d9dafc4c3ba7d8c) - **chore:** fix EditorConfig lint errors [(#7450)](https://github.com/stdlib-js/stdlib/pull/7450) _(by Daniel Hernandez Gomez, Philipp Burckhardt)_
 
 </details>
