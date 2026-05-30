@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-26)
+## Unreleased (2026-05-30)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5e64030`](https://github.com/stdlib-js/stdlib/commit/5e64030085d2082cdc46655f5120ba9772a8d846) - **docs:** document exported constant in `os/num-cpus` [(#12358)](https://github.com/stdlib-js/stdlib/pull/12358) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4531b43`](https://github.com/stdlib-js/stdlib/commit/4531b43128fd72fd9c8104187d2fd3ae3cf321d7) - **docs:** fix JSDoc text [(#12296)](https://github.com/stdlib-js/stdlib/pull/12296) _(by Philipp Burckhardt)_
 -   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
